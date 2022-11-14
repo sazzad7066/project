@@ -1,0 +1,102 @@
+/*common code start*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*header  section start*/
+header {
+  background-color: #cbcbca;
+}
+.header-inner {
+  background-color: #f4f3f5;
+  padding: 40px 10px;
+}
+.header-inner h1 {
+  margin: 0px 0px 15px 0px;
+  font-family: century gothic, sans-serif;
+  font-size: 38px;
+  color: #323232;
+  letter-spacing: 2px;
+}
+.header-inner h1 a {
+  text-decoration: none;
+  color: #78bac5;
+}
+.header-inner h1 a:hover {
+  color: tomato;
+}
+.header-inner p {
+  margin: 0px;
+  font-family: century gothic, sans-serif;
+  font-size: 15px;
+  color: #999;
+}
+.container {
+  border: 1px solid green;
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
+}
+/*header  section end*/
+/*nav  section start*/
+nav{
+  border: 1px solid red;
+  background: #cccccc;
+}
+.nav-inner{
+  background-color: #dddddd;
+}
+.nav-inner ul{
+  margin: 0px 0px 0px auto;
+  width: 51%;
+}
+.nav-inner ul li{
+list-style: none;
+display: inline-block;
+}
+.nav-inner ul li a{
+  color: #323232;
+  display: inline-block;
+  padding: 6px 20px;
+  margin: 5px;
+  text-decoration: none;
+  background: #BBBBBB;
+  font-family: "century gothic", arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400px;
+  transition: .5s all;
+}
+.nav-inner ul li a.active{
+background: #00C6F0;
+}
+.nav-inner ul li a:hover{
+  color: black;
+  background: #00C6F0;
+}
+/*nav  section end*/
+/*banner section start*/
+.banner-inner{
+  border: 12px solid #DDDDDD;
+  margin-top: 15px;
+}
+.banner-inner {
+  height: 200px;
+  background: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*banner section end*/
+/*main section start*/
+main {
+  border: 1px solid green;
+  height: 600px;
+}
+/*footer section end*/
+.footer-inner {
+  border: 1px solid green;
+  height: 50px;
+}
+/*footer section end*/
